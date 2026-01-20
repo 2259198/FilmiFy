@@ -6,6 +6,7 @@ import java.awt.*;
 public class MainFrame extends JFrame implements Runnable{
 
     MovieFormPanel movieFormPanel = new MovieFormPanel();
+    MovieListPanel movieListPanel = new MovieListPanel();
 
     @Override
     public void run() {
@@ -26,5 +27,6 @@ public class MainFrame extends JFrame implements Runnable{
     private void addOtherPanels()
     {
         add(movieFormPanel);
+        //add(movieListPanel);
     }
 }
