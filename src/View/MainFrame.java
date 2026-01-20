@@ -1,7 +1,5 @@
 package View;
 
-import Model.MovieFormPanel;
-
 import javax.swing.*;
 import java.awt.*;
 
